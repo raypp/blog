@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<article>
+  <section class="title">
+    <h2>{{ page.title }} </h2>
+  </section>
+  <section class="meta">
+  <span class="time">
+    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+  </span>
+  {% if page.tags %}
+  <span class="tags">
+    {% for tag in page.tags %}
+    <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+    {% endfor %}
+  </span>
+  {% endif %}
+  </section>
+  <section class="post">
+  {{ content }}
+  </section>
+
+  {% if page.guid %}
+  <script type="text/javascript">
+      var disqus_shortname = '{{ site.disqus }}';
+      var disqus_identifier = '{{ page.guid }}';
+
+      function leave_comment() {
+          $("#leave_comment_link").css("display", "none");
+          $("#collapse_comment_link").css("display", "");
+
+          var _url = "http://widget.weibo.com/distribution/comments.php?width=0&url=auto&fontsize=12&color=cccccc,f9f9f9,555555,5093d5,eeeeee,f0f0f0&colordiy=1&ralateuid=1639104171&appkey=3000409319&dpc=1";
+          _url = _url.replace("url=auto", "url=" + document.URL); 
+          var ifm = document.createElement('iframe'); ifm.style.width ='100%';ifm.style.height = '500px';
+          ifm.setAttribute("src", _url);
+          ifm.setAttribute("id", "WBCommentFrame");
+          ifm.setAttribute("scrolling", "auto");
+          ifm.setAttribute("frameborder", "0");
+          document.getElementById('disqus_thread').appendChild(ifm);
+          window.WBComment.init({
+              "id": "WBCommentFrame"
+          });
+          
+          document.getElementById('WBCommentFrame').height = document.getElementById('WBCommentFrame').contentWindow.document.body.scrollHeight;
+      };
+      function collapse_comment() {
+          // document.getElementById("disqus_thread").innerHTML = '';
+          $("#disqus_thread").slideUp(400, function() {
+              $("#disqus_thread").empty();
+              $("#leave_comment_link").css("display", "");
+              $("#collapse_comment_link").css("display", "none");
+              $("#disqus_thread").css("display", "");
+          });
+      };
+  </script>
+  <div class="divider">
+    <span>
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}" title="previous"><i class="fa fa-chevron-left"></i></a>
+    {% else %}
+    <i class="fa fa-circle"></i>
+    {% endif %}
+    </span>
+    <span><a href="javascript:leave_comment();" id="leave_comment_link" title="comment"><i class="fa fa-comment-o"></i></a></span>
+    <span><a href="javascript:collapse_comment();" id="collapse_comment_link" style="display:none;" title="collapse comment"><i class="fa fa-chevron-up"></i></a></span>
+    <span>
+    {% if page.next %}
+    <a href="{{ page.next.url }}" title="next"><i class="fa fa-chevron-right"></i></a>
+    {% else %}
+    <i class="fa fa-circle"></i>
+    {% endif %}
+    </span>
+  </div>
+  <section class="comment">
+  <div id="disqus_thread"></div>
+  <noscript>Please enable JavaScript to view the comments powered by Sina Weibo.</noscript>
+  </section>
+  {% endif %}
+</article>
