@@ -7,8 +7,6 @@ tags:
   - snappea
 ---
 
-![How to back to HEAVEN](/media/files/2013/12/back_to_heaven.JPG)
-
 差点就此算了，  
 差点就和你失之交臂
 
@@ -21,7 +19,9 @@ tags:
 
 去往天堂的路，我貌似渐渐走偏了……
 
-> How to back to HEAVEN?   
+![How to get back to HEAVEN](/media/files/2013/12/back_to_heaven.JPG)
+
+> How to get back to HEAVEN?   
 > 不忘初衷。  
 > 当然，还需要多一份坚持！
 
