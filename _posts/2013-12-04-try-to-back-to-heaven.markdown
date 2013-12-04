@@ -21,8 +21,8 @@ tags:
 
 去往天堂的路，我貌似渐渐走偏了……
 
-> How to back to HEAVEN? 
-> 不忘初衷。
+> How to back to HEAVEN?   
+> 不忘初衷。  
 > 当然，还需要多一份坚持！
 
 _图_ 2013年8月，在798所拍。
