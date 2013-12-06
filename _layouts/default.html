@@ -39,10 +39,12 @@
 
       $('.post a[href$="pirobox"] img').each(function(i,e){
 
-      	var src = $(e).parent('a').attr('href');
       	var title = e.alt;
-      	var wrapper = "<a href='"+src+"' rel='gallery' class='pirobox_gall' title='"+title+"'></a>"
-      	$(e).wrap(wrapper);
+        $(e).parent('a[href$="pirobox"]').attr("rel",'gallery');
+        $(e).parent('a[href$="pirobox"]').addClass("pirobox_gall");
+        if($(e).parent('a[href$="pirobox"]').attr("title") == null) {
+          $(e).parent('a[href$="pirobox"]').attr("title", title);
+        }
 
       });
 
