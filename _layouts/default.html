@@ -58,7 +58,7 @@
         $(this).attr('target', '_blank');
         var to = $(this).attr('href');
         var from = window.location.href;
-        var url = "./redirector.html?to="+encodeURIComponent(to)+"&from="+encodeURIComponent(from);
+        var url = "/redirector.html?to="+encodeURIComponent(to)+"&from="+encodeURIComponent(from);
         $(this).attr('href', url);
       });
 	});
