@@ -48,12 +48,15 @@
 
       });
 
-
-    $().piroBox_ext({
-        piro_speed : 700,
+      $().piroBox_ext({
+        piro_speed : 200,
         bg_alpha : 0.1,
         piro_scroll : true //pirobox always positioned at the center of the page
-    });
+      });
+
+      $('a[href^="http"]').each(function(){
+        $(this).attr('target', '_blank');
+      });
 	});
 	</script>
   </head>
