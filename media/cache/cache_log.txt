@@ -1,0 +1,2 @@
+cache from: www.google-analytics.com/analytics.js
+cache date: 2013/12/6
