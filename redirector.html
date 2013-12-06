@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head><title>电话转接中……</title>
-<script src="http://raypp.cn/media/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script><script>
+<head><title>电话转接中...</title><script src="/media/js/jquery-1.7.1.min.js"></script><script>
 	var _hmt = _hmt || [];
 	(function() {
 	var hm = document.createElement("script");
@@ -10,24 +9,34 @@
 	s.parentNode.insertBefore(hm, s);
 	})();
 </script><script type="text/javascript">
-	window.onload = function() {
-		function GetQueryString(name) {
-		    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-		    var r = window.location.search.substr(1).match(reg);
-		    if (r != null) { 
-		        return unescape(r[2]);
-		    }
-		    return null;
-		}
-		var from = GetQueryString("from");
-		var to = GetQueryString("to");
-		if(to != null) {
-			window.location.href = to;
-		} else {
-			window.location.href = "http://raypp.cn/#redirect_failure";
-		}
-	};
-</script></head><body>loading...<script>
+$(document).ready(function() { 
+var from,to,tips;
+function GetQueryString(name) {
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null) { 
+	return unescape(r[2]);
+}
+	return null;
+}
+from = GetQueryString("from");
+to = GetQueryString("to");
+if(to != null) {
+	tips = "<div style='margin-top: 30px;margin-left: 20px'><p><strong style='font-size: 20px;'>加载中，请稍等...</strong></p><p><small style='color: #999'>等不及，直接访问：<a href="+to+" style='color:#777'>"+to.substr(0,50)+"...</a></small></p></div>";
+	document.write(tips);
+} else {
+	tips = "错误，即将返回首页。";
+	document.write(tips);
+}
+}); 
+window.onload = function() {
+	if(to != null) {
+		window.location.href = to;
+	} else {
+		window.location.href = "http://raypp.cn/#redirect_failure";
+	}
+};
+</script></head><body><p>loading...</p><script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
