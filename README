@@ -1,1 +1,13 @@
-This is Ray's blog~
+# 写作提示 (by Ray)
+
+## 图片预览
+
+图片加上链接，且链接以`pirobox`结尾，如  
+    
+    [![title](http://raypp.cn/bcd.jpg)](http://raypp.cn/abc.jpg#pirobox)
+    
+对应html如下：
+    
+    <a href="http://raypp.cn/abc.jpg#pirobox"><img src="http://raypp.cn/bcd.jpg" alt="title" /></a>
+
+这种情况下，bcd.jpg可以是宽度小于等于680px的缩略图，而abc.jpg则是全尺寸原图。
