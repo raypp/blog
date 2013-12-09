@@ -28,7 +28,8 @@ li {
   padding: .2em 0; }
 
 hr {
-  width: 4em;
+  width: 20em;
+  margin-left: 0;
   border: none;
   border-top: 1px dashed #d0d0d0;
   border-bottom: 1px dashed #f9f9f9; }
