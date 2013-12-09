@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div>
-  <ul class="listing">
+  <!-- <ul class="listing"> -->
   {% for post in site.posts limit: 1 %}
   <article class="content">
     <section class="title">
@@ -26,7 +26,7 @@ layout: default
     </section>
     </article>
   {% endfor %}
-  </ul>
+  <!-- </ul> -->
   <div class="divider"></div>
   <ul class="listing main-listing">
     <li class="listing-seperator">今年近期文章 »</i>

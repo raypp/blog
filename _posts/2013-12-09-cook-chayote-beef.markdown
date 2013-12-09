@@ -7,9 +7,9 @@ tags:
   - buzz
 ---
 
-[![柔软的牛腩](/media/files/2013/12/131209_cook_a.jpg)](/media/files/2013/12/131209_cook_a.jpg#pirobox)
+[![柔软的牛腩](/media/files/2013/12/131209_cook_a.jpg)](/media/files/2013/12/131209_cook_a_fullsize.jpg#pirobox)
 
-[![也是视觉盛宴](/media/files/2013/12/131209_cook_b.jpg)](/media/files/2013/12/131209_cook_b.jpg#pirobox)
+[![也是视觉盛宴](/media/files/2013/12/131209_cook_b.jpg)](/media/files/2013/12/131209_cook_b_fullsize.jpg#pirobox)
 
 佛手瓜烧牛腩这道菜我以前在家经常吃，但是到了北方我在市场上还没见到过佛手瓜卖，所以平时烧牛腩最多就用用土豆、萝卜。
 
@@ -25,6 +25,6 @@ tags:
 
 于是就有了今天这道“有史以来最好吃的牛肉”，很简单吧？
 
-[![俩人饭后这道菜所剩无几](/media/files/2013/12/131209_cook_c.jpg)](/media/files/2013/12/131209_cook_c.jpg#pirobox)
+[![俩人饭后这道菜所剩无几](/media/files/2013/12/131209_cook_c.jpg)](/media/files/2013/12/131209_cook_c_fullsize.jpg#pirobox)
 
 刚刚[明玉](http://weibo.com/mingyuran)边吃边说：`说这是你做过的牛肉里面最好吃的一次`……
