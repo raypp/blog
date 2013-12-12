@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+  {% if page.title %}
+  <section class="title" style="text-align:center;">
+    <h2>{{ page.title }} </h2>
+  </section>
+  {% endif %}
+  <section class="post" style="text-align:center;">
+  {{ content }}
+  </section>
+</article>
