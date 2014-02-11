@@ -1,6 +1,12 @@
 ---
 title: 软件产品经理胜任力问卷
-layout: page
+layout: center
 ---
 
-<iframe width="680" height="4000" frameborder="no" scrolling="auto" hspace="0" vspace="0" marginwidth="0" marginheight="0" src="http://www.diaochapai.com/survey/0140502c-37cb-4efc-a2df-b1df36323b17?iframe" id="0140502c-37cb-4efc-a2df-b1df36323b17" style="overflow-x : hidden;"></iframe>
+![手机扫码填写](http://www.diaochapai.com/survey/0140502c-37cb-4efc-a2df-b1df36323b17/qrcode?size=4)
+
+使用手机扫码填写问卷，或者通过以下链接打开：
+
+### __[开题填写问卷：http://www.diaochapai.com/survey871267](http://www.diaochapai.com/survey/0140502c-37cb-4efc-a2df-b1df36323b17)__
+
+email: `leiyutian@pku.edu.cn`
