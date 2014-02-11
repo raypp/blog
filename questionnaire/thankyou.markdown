@@ -1,5 +1,5 @@
 ---
-title: 感谢填写！
+title: 感谢填写
 layout: page
 ---
 
