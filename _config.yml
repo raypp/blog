@@ -5,7 +5,7 @@ name: "[wǐth sky]"
 markdown: rdiscount
 
 author: "Ray"
-atom-baseurl: "http://raypp.cn/blog"
+atom-baseurl: "http://raypp.cn"
 disqus: "withsky"
 
 navigations:
