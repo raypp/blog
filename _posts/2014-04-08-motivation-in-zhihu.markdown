@@ -6,6 +6,6 @@ tags:
   - pm
 ---
 
-[![用户在知乎生产数据背后的动机](/blog/media/files/2014/04/motivation-in-zhihu.png)](/blog/media/files/2014/04/motivation-in-zhihu_fullsize.png#pirobox)
+[![用户在知乎生产数据背后的动机](/media/files/2014/04/motivation-in-zhihu.png)](/media/files/2014/04/motivation-in-zhihu_fullsize.png#pirobox)
 
 转载请注明出处：http://raypp.cn/2014/04/08/motivation-in-zhihu.html
