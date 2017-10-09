@@ -1,8 +1,7 @@
-markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
 name: "[wǐth sky]"
-markdown: rdiscount
+markdown: kramdown
 
 author: "Ray"
 atom-baseurl: "http://raypp.cn"
