@@ -60,7 +60,7 @@
         $(this).attr('target', '_blank');
         var to = $(this).attr('href');
         var from = window.location.href;
-        var url = "/blog/redirector.html?to="+encodeURIComponent(to)+"&from="+encodeURIComponent(from);
+        var url = "/redirector.html?to="+encodeURIComponent(to)+"&from="+encodeURIComponent(from);
         $(this).attr('href', url);
       });
 	});
@@ -70,11 +70,11 @@
       <div id="main" role="main">
         <header>
           <div id="header">
-            <h1><a title="{{ site.name }}" class="" href="/blog/">{{ site.name }}</a></h1>
+            <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
           </div>
           <nav>
             {% for nav in site.navigations %}
-            <span><a title="{{ nav.title }}" href="/blog/{{ nav.href }}"><i class="{{ nav.class }}"></i></a></span>
+            <span><a title="{{ nav.title }}" href="/{{ nav.href }}"><i class="{{ nav.class }}"></i></a></span>
             {% endfor %}
           </nav>
         </header>
