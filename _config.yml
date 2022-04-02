@@ -4,20 +4,20 @@ markdown: kramdown
 hightlighter: rouge
 
 author: "Ray"
-atom-baseurl: "http://raypp.github.io/blog/"
+atom-baseurl: "http://blog.raypp.cn"
 disqus: "withsky"
 
 navigations:
   - title: Archive
     class: fa fa-list-ul
-    href: /blog/archive.html
+    href: /archive.html
   - title: Tags
     class: fa fa-tags
-    href: /blog/tags.html
+    href: /tags.html
   - title: About
     class: fa fa-user
-    href: /blog/about.html
+    href: /about.html
   - title: Subscribe
     class: fa fa-rss
-    href: /blog/atom.xml
+    href: /atom.xml
 
