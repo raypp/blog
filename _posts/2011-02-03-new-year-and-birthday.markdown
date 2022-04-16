@@ -1,5 +1,5 @@
 ---
-title: [农历庚寅虎年除夕/公历2011年2月2日]大年三十
+title: 农历庚寅虎年除夕/公历2011年2月2日 大年三十
 layout: post
 guid: urn:uuid:d28bba40-580a-429a-bdde-179f581ab017
 tags:
